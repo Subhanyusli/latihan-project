@@ -1,0 +1,50 @@
+ul {
+    list-style : none;
+
+}
+
+a{
+    text-decoration : none;
+    color : #000;
+    font-weight:bold;
+}
+
+li {
+    display : inline;
+    background-color: #ff0000;
+    float:left;
+    padding: 10px;
+    border-right: solid 1px #000;
+}
+
+li:last-child {
+    border-right:none;
+}
+
+li:hover{
+    background-color: #ccc;
+}
+
+.header {
+    width: 100%;
+    background-color: #ff0000;
+    overflow: auto;
+}
+
+.header a {
+    float : left;
+    tex-align : center;
+    
+}
+
+.bx-list-ul {
+    font-size : 34px;
+
+}
+
+@media screen and (max-width: 500px){
+    .header a {
+        float : none;
+        display : block;
+    }
+}
